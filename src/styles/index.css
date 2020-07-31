@@ -1,0 +1,42 @@
+body{
+    height: 100vh;
+}
+
+#pokedexTop{
+    margin-top:1%;
+}
+
+#spriteContainer{
+    margin-left:0 !important;
+    height:30vh;
+    width:100%;
+    border-radius:10px;
+    background-color: #F2F2F2;
+}
+
+#pokemonInfoTop{
+
+}
+
+.infoCard {
+    border-radius: 10px;
+    background-color: #30a7d7;
+}
+ul {
+    list-style-type: none;
+}
+
+.att-title{
+    margin: 1.25em 0 0 1.25em;
+    float:left;
+    font-family: "Flexo-Medium",arial,sans-serif;
+    color: #fff;
+}
+
+.att-value{
+    margin: 0.75em 1.5em 0 1em;
+    color: #212121;
+    float:left;
+    font-size:125%;
+    font-family: "Flexo-Medium",arial,sans-serif;
+}

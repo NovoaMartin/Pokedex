@@ -11,13 +11,13 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header class="container-fluid">
         <div class ="row">
-            <div class="col d-flex justify-content-center">
+            <div class="col">
                 <h1>Pokedex</h1>
             </div>
         </div>
@@ -30,7 +30,19 @@
             </select>
         </div>
     </div>
-    <div id="pokedexTop" class="row d-flex justify-content-center">
+    <div id="pokemonHeader">
+        <div class="col d-flex flex-column" >
+            <div class="row justify-content-center">
+                <h1><span id="pokeName">Ditto</span>
+                <small class="text-muted"<span> Nº</span><span id="pokeID">132</span></small>
+                </h1>
+            </div>
+            <div class="row justify-content-center">
+                <div id="types">Poison Grass</div>
+            </div>
+        </div>
+    </div>
+    <div id="pokedexTop" class="row d-flex justify-content-between">
         <div class="col-2">
             <div class="row justify-content-start">
                 <div id="spriteContainer"></div>
@@ -46,40 +58,52 @@
             </div>
         </div>
 
-        <div id="pokemonInfoTop" class="col-6">
-            <div class="col-sm-6">
+        <div id="pokemonInfoTop" class="col-3">
+            <div class="">
                 <div class="infoCard card-body row">
                     <div class="col-6">
                         <ul>
                             <li>
-                                <span class="att-title">Height</span>
-                                <span class="att-value">0.7</span>
+                                <span class="row att-title">Height</span>
+                                <span class="row att-value">0.7</span>
                             </li>
                             <li>
-                                <span class="att-title">Weight</span>
-                                <span class="att-value">0</span>
+                                <span class="row att-title">Weight</span>
+                                <span class="row att-value">0</span>
                             </li>
                             <li>
-                                <span class="att-title">Sex</span>
-                                <span class="att-value">0</span>
+                                <span class="row att-title">Sex</span>
+                                <span class="row att-value">0</span>
                             </li>
                         </ul>
                     </div>
                     <div class="col-6">
                         <ul>
                             <li>
-                                <span class="att-title">Category</span>
-                                <span class="att-value">pepe</span>
+                                <span class="row att-title">Category</span>
+                                <span class="row att-value">pepe</span>
                             </li>
                             <li>
-                                <span class="att-title">Abilities</span>
+                                <span class="row att-title">Abilities</span>
                                 <div id="abilitiesList">
-                                    <span class="att-value">asd</span>
+                                    <span class="row att-value">as</span>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div id="statCard" class="col-4 mr-0">
+            <h4 class="text-center">Stats</h4>
+            <div class="col">
+                <div class="bar row" id="bar-hp">HP <span id="hp">0</span></div>
+                <div class="bar row" id="bar-attack">Attack <span id="attack">0</span></div>
+                <div class="bar row" id="bar-defense">Defense <span id="defense">0</span></div>
+                <div class="bar row" id="bar-speed">Speed <span id="speed">0</span></div>
+                <div class="bar row" id="bar-specialAttack">Special Attack <span id="specialAttack">0</span></div>
+                <div class="bar row" id="bar-specialDefense">Special Defense <span id="specialDefense">0</span></div>
             </div>
         </div>
 

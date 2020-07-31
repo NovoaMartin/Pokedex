@@ -27,16 +27,23 @@ ul {
 }
 
 .att-title{
-    margin: 1.25em 0 0 1.25em;
-    float:left;
+    margin: 1.25em 0 0 0.6em;
     font-family: "Flexo-Medium",arial,sans-serif;
     color: #fff;
 }
 
 .att-value{
-    margin: 0.75em 1.5em 0 1em;
+    margin: 0.75em 1.5em 0 0.8em;
     color: #212121;
-    float:left;
     font-size:125%;
     font-family: "Flexo-Medium",arial,sans-serif;
+}
+
+#statCard{
+    background-color: #30a7d7;
+    border-radius:10px;
+}
+
+.bar{
+
 }

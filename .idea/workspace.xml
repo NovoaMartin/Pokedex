@@ -26,11 +26,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Pokedex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pokedex.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classes/Pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/Pokemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/Skill.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596140608535</updated>
       <workItem from="1596140610955" duration="14210000" />
-      <workItem from="1596167874557" duration="3521000" />
+      <workItem from="1596167874557" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -91,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596168106077</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added general information card">
+      <created>1596172551599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596172551599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Base" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base" />
+    <MESSAGE value="Added general information card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added general information card" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" key="SettingsEditor" timestamp="1596147756191">

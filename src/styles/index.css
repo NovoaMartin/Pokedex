@@ -45,5 +45,14 @@ ul {
 }
 
 .bar{
-
+    box-sizing: border-box;
+    transition: width 1s;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom:10px;
+    background-color:red;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
 }

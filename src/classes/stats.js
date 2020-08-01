@@ -1,5 +1,5 @@
 export default class Stats {
-  constructor(hp, attack, defence, specialAttack, specialDefence, speed) {
+  constructor([hp, attack, defence, specialAttack, specialDefence, speed]) {
     this.hp = hp;
     this.attack = attack;
     this.defence = defence;

@@ -28,14 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/storage/storage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/pokemon.js" afterDir="false" />
-    </list>
+    <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +58,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -77,6 +71,9 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="" />
@@ -87,6 +84,7 @@
       <workItem from="1596140610955" duration="14210000" />
       <workItem from="1596167874557" duration="5956000" />
       <workItem from="1596254547550" duration="660000" />
+      <workItem from="1596311184750" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -134,7 +132,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,10 +173,18 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="419" y="165" width="512" height="393" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1596257855979" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1596147756191">
+    <state x="434" y="233" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1596311327672">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1596147756191" />
+    <state x="434" y="233" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1360.728@0.0.1360.728" timestamp="1596311327672" />
+    <state x="460" y="105" key="FileChooserDialogImpl" timestamp="1596311313500">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1596311313500" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1596311232857">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1596311232857" />
     <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596257442204">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

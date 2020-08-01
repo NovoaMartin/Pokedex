@@ -29,12 +29,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/apiWrapper/apiWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/pokemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storage/storage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classes/stats.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/stats.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/pokemon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596255199745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Api calls and wrapper">
+      <created>1596257892330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596257892330</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,9 @@
     <MESSAGE value="Added stats card" />
     <MESSAGE value="fixed html tag" />
     <MESSAGE value="Finished ui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished ui" />
+    <MESSAGE value="Api calls and wrapper" />
+    <MESSAGE value="localStorage and services modules." />
+    <option name="LAST_COMMIT_MESSAGE" value="localStorage and services modules." />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="165" width="512" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596257855979">

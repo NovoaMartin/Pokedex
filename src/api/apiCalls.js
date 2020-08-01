@@ -8,6 +8,6 @@ export async function getPokemonCount() {
   return (await getPokemons(0, 1)).count;
 }
 
-export default async function getPokemon(id) {
+export async function getPokemon(id) {
   return (await fetch(`${BASE_URL}${id}`)).json();
 }

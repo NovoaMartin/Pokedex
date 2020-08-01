@@ -26,9 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/api/apiCalls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiCalls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +78,7 @@
       <updated>1596140608535</updated>
       <workItem from="1596140610955" duration="14210000" />
       <workItem from="1596167874557" duration="5956000" />
+      <workItem from="1596254547550" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -109,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596173213950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished ui">
+      <created>1596255199745</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596255199745</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +150,8 @@
     <MESSAGE value="Added general information card" />
     <MESSAGE value="Added stats card" />
     <MESSAGE value="fixed html tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed html tag" />
+    <MESSAGE value="Finished ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished ui" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="0" key="SettingsEditor" timestamp="1596147756191">

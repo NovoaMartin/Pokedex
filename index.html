@@ -25,16 +25,14 @@
     <div id="search" class="container">
         <div class="row d-flex justify-content-center">
             <select title="Select a Pokemon" id="pokemonList" class="selectpicker" data-live-search="true">
-                <option data-token="Ditto">Ditto</option>
-                <option data-token="Pikachu">Pikachu</option>
             </select>
         </div>
     </div>
     <div id="pokemonHeader">
         <div class="col d-flex flex-column" >
             <div class="row justify-content-center">
-                <h1><span id="pokeName">Ditto</span>
-                <small class="text-muted"><span> Nº</span><span id="pokeID">132</span></small>
+                <h1><span id="pokeName"></span>
+                <small class="text-muted"><span> Nº</span><span id="pokeID"></span></small>
                 </h1>
             </div>
             <div class="row justify-content-center">
@@ -45,16 +43,20 @@
     <div id="pokedexTop" class="row d-flex justify-content-between">
         <div class="col-2">
             <div class="row justify-content-start">
-                <div id="spriteContainer"></div>
-            </div>
-            <div class="row justify-content-between">
-                <button type="button" class="btn btn-primary"><<</button>
-                <div id="imgNote" class="row">
-                    <div id="imgNumber">1</div>
-                    <div>/</div>
-                    <div id="imgMax">5</div>
+                <div id="spriteCarousel" class="carousel slide container-fluid " data-ride="carousel">
+                    <a class="carousel-control-prev btn-dark" href="#spriteCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <div id="spriteContainer" class="carousel-inner d-flex align-items-center">
+                    </div>
+
+                    <a class="carousel-control-next btn-dark" href="#spriteCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
                 </div>
-                <button type="button" class="btn btn-primary">>></button>
             </div>
         </div>
 
@@ -65,28 +67,19 @@
                         <ul>
                             <li>
                                 <span class="row att-title">Height</span>
-                                <span class="row att-value">0.7</span>
+                                <span class="row att-value" id="height"></span>
                             </li>
                             <li>
                                 <span class="row att-title">Weight</span>
-                                <span class="row att-value">0</span>
-                            </li>
-                            <li>
-                                <span class="row att-title">Sex</span>
-                                <span class="row att-value">0</span>
+                                <span class="row att-value" id="weight"></span>
                             </li>
                         </ul>
                     </div>
                     <div class="col-6">
                         <ul>
                             <li>
-                                <span class="row att-title">Category</span>
-                                <span class="row att-value">pepe</span>
-                            </li>
-                            <li>
                                 <span class="row att-title">Abilities</span>
                                 <div id="abilitiesList">
-                                    <span class="row att-value">as</span>
                                 </div>
                             </li>
                         </ul>

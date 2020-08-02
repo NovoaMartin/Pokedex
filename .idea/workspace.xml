@@ -28,7 +28,20 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="" />
+    <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ui/display.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilities/utilities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pokedex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pokedex.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/apiCalls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiCalls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/apiWrapper/apiWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/apiWrapper/apiWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/pokemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +72,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -68,9 +82,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -85,6 +99,7 @@
       <workItem from="1596167874557" duration="5956000" />
       <workItem from="1596254547550" duration="660000" />
       <workItem from="1596311184750" duration="122000" />
+      <workItem from="1596311576332" duration="13709000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -128,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596257892330</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated dependencies">
+      <created>1596311891611</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596311891611</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +188,9 @@
     <MESSAGE value="Finished ui" />
     <MESSAGE value="Api calls and wrapper" />
     <MESSAGE value="localStorage and services modules." />
-    <option name="LAST_COMMIT_MESSAGE" value="localStorage and services modules." />
+    <MESSAGE value="updated dependencies" />
+    <MESSAGE value="Pokemon processing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pokemon processing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="165" width="512" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596257855979">
@@ -181,10 +205,74 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="460" y="105" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1596311313500" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1596311232857">
+    <state width="1317" height="223" key="GridCell.Tab.0.bottom" timestamp="1596311710296">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1596311232857" />
+    <state width="1317" height="223" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.0.center" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.0.left" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.0.right" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.1.bottom" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.bottom/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.1.center" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.center/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.1.left" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.left/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.1.right" timestamp="1596311710296">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.1.right/0.0.1360.728@0.0.1360.728" timestamp="1596311710296" />
+    <state width="1317" height="223" key="GridCell.Tab.2.bottom" timestamp="1596311710297">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.2.bottom/0.0.1360.728@0.0.1360.728" timestamp="1596311710297" />
+    <state width="1317" height="223" key="GridCell.Tab.2.center" timestamp="1596311710297">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.2.center/0.0.1360.728@0.0.1360.728" timestamp="1596311710297" />
+    <state width="1317" height="223" key="GridCell.Tab.2.left" timestamp="1596311710297">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.2.left/0.0.1360.728@0.0.1360.728" timestamp="1596311710297" />
+    <state width="1317" height="223" key="GridCell.Tab.2.right" timestamp="1596311710297">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.2.right/0.0.1360.728@0.0.1360.728" timestamp="1596311710297" />
+    <state width="1317" height="223" key="GridCell.Tab.3.bottom" timestamp="1596311710298">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.3.bottom/0.0.1360.728@0.0.1360.728" timestamp="1596311710298" />
+    <state width="1317" height="223" key="GridCell.Tab.3.center" timestamp="1596311710298">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.3.center/0.0.1360.728@0.0.1360.728" timestamp="1596311710298" />
+    <state width="1317" height="223" key="GridCell.Tab.3.left" timestamp="1596311710297">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.3.left/0.0.1360.728@0.0.1360.728" timestamp="1596311710297" />
+    <state width="1317" height="223" key="GridCell.Tab.3.right" timestamp="1596311710298">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1317" height="223" key="GridCell.Tab.3.right/0.0.1360.728@0.0.1360.728" timestamp="1596311710298" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1596312204681">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1596312204681" />
     <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596257442204">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

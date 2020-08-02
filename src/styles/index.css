@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    padding: 0 10% 0 10%;
 }
 
 #pokedexTop{
@@ -55,4 +56,10 @@ ul {
     font-size: 10px;
     text-align: center;
     text-transform: uppercase;
+}
+
+img{
+    max-height: 96px;
+    max-width: 96px;
+    margin-left:10%;
 }

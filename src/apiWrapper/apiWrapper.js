@@ -1,7 +1,8 @@
 import Pokemon from '../classes/Pokemon.js';
 import Stats from '../classes/stats.js';
+import { getPokemonCount, getPokemons } from '../api/apiCalls.js';
 
-export default function wrapPokemon(apiPokemon) {
+export function wrapPokemon(apiPokemon) {
   const {
     id,
     name,
@@ -25,4 +26,10 @@ export default function wrapPokemon(apiPokemon) {
     skills.filter((item) => item.is_hidden === false),
     new Stats(stats.map((item) => item.base_stat)),
   );
+}
+
+export async function getNames() {
+  const limit = await getPokemonCount();
+  const pokemons = await getPokemons(0, limit);
+  return pokemons.results.map((item) => item.name);
 }

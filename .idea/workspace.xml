@@ -29,10 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ui/display.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Pokedex.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pokedex.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <workItem from="1596167874557" duration="5956000" />
       <workItem from="1596254547550" duration="660000" />
       <workItem from="1596311184750" duration="122000" />
-      <workItem from="1596311576332" duration="13792000" />
+      <workItem from="1596311576332" duration="13922000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -149,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596327101958</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Basic display">
+      <created>1596327168773</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596327168773</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

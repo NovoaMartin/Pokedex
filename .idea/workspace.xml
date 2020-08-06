@@ -31,6 +31,8 @@
     <list default="true" id="8049d216-95e0-4fa1-8b1b-05fc2e5c16d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/display.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <workItem from="1596254547550" duration="660000" />
       <workItem from="1596311184750" duration="122000" />
       <workItem from="1596311576332" duration="13987000" />
-      <workItem from="1596692970226" duration="73000" />
+      <workItem from="1596692970226" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="Base">
       <created>1596168106077</created>
@@ -162,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596327293997</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fixed page Title">
+      <created>1596693065580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596693065580</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +212,8 @@
     <MESSAGE value="updated dependencies" />
     <MESSAGE value="Pokemon processing" />
     <MESSAGE value="Basic display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic display" />
+    <MESSAGE value="Fixed page Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed page Title" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="165" width="512" height="393" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596257855979">

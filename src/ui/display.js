@@ -1,8 +1,10 @@
 export default function displayPokemon(pokemon) {
+  console.log(pokemon);
   setName(pokemon.name, pokemon.id);
   setInfo(pokemon.height, pokemon.weight);
   setAbilities(pokemon.skills);
   setImages(pokemon.sprites);
+  setTypes(pokemon.types);
 }
 
 function setName(name, id) {
@@ -42,4 +44,15 @@ function setImages(sprites) {
     $spriteContainer.appendChild($div);
   });
   document.querySelector('.carousel-item').classList.add('active');
+}
+
+function setTypes(types) {
+  const $typesContainer = document.querySelector('#types');
+  $typesContainer.innerHTML = '';
+  types.forEach((type) => {
+    const $type = document.createElement('div');
+    $type.className = 'type';
+    $type.textContent = type;
+    $typesContainer.appendChild($type);
+  });
 }

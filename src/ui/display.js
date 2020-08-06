@@ -1,10 +1,11 @@
+/* eslint-disable no-use-before-define */
 export default function displayPokemon(pokemon) {
-  console.log(pokemon);
   setName(pokemon.name, pokemon.id);
   setInfo(pokemon.height, pokemon.weight);
   setAbilities(pokemon.skills);
   setImages(pokemon.sprites);
   setTypes(pokemon.types);
+  setStats(pokemon.stats);
 }
 
 function setName(name, id) {
@@ -54,5 +55,16 @@ function setTypes(types) {
     $type.className = 'type';
     $type.textContent = type;
     $typesContainer.appendChild($type);
+  });
+}
+
+function setStats(stats) {
+  const $statsContainer = document.querySelector('#statsContainer');
+  const bars = document.querySelectorAll('.stat');
+  bars.forEach(($stat) => { $stat.innerHTML = ''; });
+  Object.keys(stats).forEach((stat) => {
+    const $bar = $statsContainer.querySelector(`#${stat}`);
+    $bar.parentElement.style.width = `${stats[stat] < 100 ? stats[stat] : 100}%`;
+    $bar.textContent = stats[stat];
   });
 }

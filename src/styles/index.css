@@ -1,5 +1,4 @@
 body{
-    height: 100vh;
     padding: 0 10% 0 10%;
 }
 
@@ -68,4 +67,11 @@ img{
     background-color: green;
     float:left;
     margin-right:3em;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:1em;
 }
